@@ -14,6 +14,14 @@ Supported memory images:
 - Windows Server 2008
 - Windows Vista
 
+Preparation
+-----------
+
+```
+python3 -m venv ./venv
+source ./venv/bin/activate
+pip3 install git+https://github.com/volatilityfoundation/volatility3.git
+```
 
 Example case - Windows 7 SP1 x64
 --------------------------------
